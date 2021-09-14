@@ -1,0 +1,21 @@
+{
+  "name": "typescript-eslint-project",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-shopify": "^35.1.0",
+    "typescript": "^4.4.3"
+  }
+}
